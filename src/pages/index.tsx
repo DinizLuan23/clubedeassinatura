@@ -1,7 +1,12 @@
-import styles from '../../styles/home.module.css';
+import Head from 'next/head';
 
 export default function Home() {
   return (
-    <h1 className={styles.title}>teste</h1>
+     <>
+      <Head>
+         <title>Inicio | Signature</title>
+      </Head>
+      <h1>teste</h1>
+     </>
   )
 }
